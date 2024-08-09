@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import Sign_in from './Pages/Sign_in';
+import SignIn from './Pages/SignIn';
 import SignUp from './Pages/SignUp';
 import Home from './Pages/Home';
 import About from './Pages/About';
@@ -15,7 +15,7 @@ export default function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/Profile" element={<Profile />} />
-        <Route path="/SignIn" element={<Sign_in />} />
+        <Route path="/SignIn" element={<SignIn />} />
         <Route path="/SignUp" element={<SignUp />} />
 
       </Routes>
